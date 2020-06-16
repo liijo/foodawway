@@ -1,8 +1,8 @@
 <?php
-add_action( 'wp_enqueue_scripts', 'porto_child_css', 1001 );
+// Load CSS and JS
+add_action( 'wp_enqueue_scripts', 'foodawayLoadAssets', 1001 );
 
-// Load CSS
-function porto_child_css() {
+function foodawayLoadAssets() {
 
 	wp_enqueue_script( 'onsenui', get_stylesheet_directory_uri() . '/lib/onsen/js/onsenui.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/lib/jquery-v3.4.1.js', array(), '1.0.0', true );
@@ -31,5 +31,51 @@ function porto_child_css() {
 	wp_enqueue_style( 'snazzy', esc_url( get_stylesheet_directory_uri() ) . '/lib/snazzy-info-window/snazzy-info-window.min.css' );
 
 
+}
+
+// Regiser Menu
+add_action( 'after_setup_theme', 'foodawayRegisterNavMenu', 0 );
+function foodawayRegisterNavMenu(){
+    register_nav_menus( array(
+        'primary_menu' => __( 'Primary Menu', 'foodaway' )
+    ) );
+}
+
+// Add a sidebar.
+add_action( 'widgets_init', 'foodawaySidebars' );
+function foodawaySidebars() {
+    register_sidebar( 
+    	array(
+	        'name'          => __( 'Footer Sidebar 1', 'foodaway' ),
+	        'id'            => 'footer-1',
+	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
+	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</li>',
+	        'before_title'  => '<h2 class="widgettitle">',
+	        'after_title'   => '</h2>',
+	    )
+	);
+    register_sidebar( 
+	    array(
+	        'name'          => __( 'Footer Sidebar 2', 'foodaway' ),
+	        'id'            => 'footer-2',
+	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
+	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</li>',
+	        'before_title'  => '<h2 class="widgettitle">',
+	        'after_title'   => '</h2>',
+	    )
+	);
+    register_sidebar( 
+	    array(
+	        'name'          => __( 'Footer Sidebar 3', 'foodaway' ),
+	        'id'            => 'footer-3',
+	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
+	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</li>',
+	        'before_title'  => '<h2 class="widgettitle">',
+	        'after_title'   => '</h2>',
+	    ) 
+	);
 }
 ?>
