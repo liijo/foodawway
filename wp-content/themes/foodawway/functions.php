@@ -4,6 +4,7 @@ add_action( 'wp_enqueue_scripts', 'foodawayLoadAssets', 1001 );
 
 function foodawayLoadAssets() {
 
+	wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'onsenui', get_stylesheet_directory_uri() . '/lib/onsen/js/onsenui.min.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'jquery', get_stylesheet_directory_uri() . '/lib/jquery-v3.4.1.js', array(), '1.0.0', true );
 	wp_enqueue_script( 'cordova', get_stylesheet_directory_uri() . '/cordova.js', array(), '1.0.0', true );
@@ -21,15 +22,14 @@ function foodawayLoadAssets() {
 	wp_enqueue_script( 'app', get_stylesheet_directory_uri() . '/js/app.js?version=1.0.0', array(), '1.0.0', true );
 	wp_enqueue_script( 'map-wrapper', get_stylesheet_directory_uri() . '/js/map-wrapper.js?version=1.0.0', array(), '1.0.0', true );
 
-	// porto child theme styles
+	// theme styles
 	wp_enqueue_style( 'onsenui', esc_url( get_stylesheet_directory_uri() ) . '/lib/onsen/css/onsenui.min.css' );
 	wp_enqueue_style( 'onsen-components', esc_url( get_stylesheet_directory_uri() ) . '/lib/onsen/css/onsen-css-components.min.css' );
 	wp_enqueue_style( 'theme', esc_url( get_stylesheet_directory_uri() ) . '/css/theme.css?ver=1.0' );
 	wp_enqueue_style( 'desktop', esc_url( get_stylesheet_directory_uri() ) . '/css/desktop.css?ver=1.0' );
 	wp_enqueue_style( 'app', esc_url( get_stylesheet_directory_uri() ) . '/css/app.css?ver=1.0' );
 	wp_enqueue_style( 'raty', esc_url( get_stylesheet_directory_uri() ) . '/lib/raty/jquery.raty.css' );
-	wp_enqueue_style( 'snazzy', esc_url( get_stylesheet_directory_uri() ) . '/lib/snazzy-info-window/snazzy-info-window.min.css' );
-
+	wp_enqueue_style( 'bootstrap', esc_url( get_stylesheet_directory_uri() ) . '/css/bootstrap.min.css' );
 
 }
 
@@ -78,4 +78,17 @@ function foodawaySidebars() {
 	    ) 
 	);
 }
+
+function foodawayMenuClasses($classes, $item, $args) {
+  if($args->theme_location == 'primary_menu') {
+    $classes[] = 'nav-item';
+  }
+  return $classes;
+}
+add_filter('nav_menu_css_class', 'foodawayMenuClasses', 1, 3);
+
+function add_menuclass($ulclass) {
+   return preg_replace('/<a /', '<a class="nav-link"', $ulclass);
+}
+add_filter('wp_nav_menu','add_menuclass');
 ?>
