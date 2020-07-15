@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-sm">
+		<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
 			<a href="<?php bloginfo('home') ?>" class="navbar-brand">
 			<?php $logo = ot_get_option('logo'); 
 			if( $logo ) echo '<img src="'.$logo.'" alt="'.get_bloginfo('name').'" />';
@@ -33,4 +33,27 @@
 				</ul>
 			</div>
 		</nav>
+		<div class="H_banner home">
+            <div class="main_pitch">
+                <h1 class="page_title">Order Online Your Food</h1>
+                <h3 class="cntct">Call us<span class="call_desk"><a href="tel:+01234567890" id="typewriter_num">01 234 567 890</a></span></h3>
+            </div>
+        </div>
+        <div class="bottom_pitch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main_bpitch">
+                            <ul>
+                                <li class="pizza active"><a href="menu.html" class="trans" title="Pizza"><span class="icon">Pizza</span></a></li>
+                                <li class="burger1"><a href="menu.html" class="trans" title="Burgers"><span class="icon">Burgers</span></a></li>
+                                <li class="salads"><a href="menu.html" class="trans" title="Salads"><span class="icon">Salads</span></a></li>
+                                <li class="fries"><a href="menu.html" class="trans" title="Fries"><span class="icon">Fries</span></a></li>
+                                <li class="drinks"><a href="menu.html" class="trans" title="Drinks"><span class="icon">Drinks</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</header>

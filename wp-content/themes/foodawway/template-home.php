@@ -1,6 +1,236 @@
 <?php 
 // Template name: Home
-get_header(); /*?>
+get_header(); ?>
+
+<div class="hwork">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main_hwork">
+                    <ul>
+                        <li class="order">
+                            <div class="title">Order your food</div>
+                        </li>
+                        <li class="deliver_L">
+                            <div class="title">Delivery location</div>
+                        </li>
+                        <li class="deliver_pick">
+                            <div class="title">Delivery or Pick up</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+  <div class="popular">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="main_popular">
+                      <h2 class="title">Popular Our Food</h2>
+                      <p class="desc">Choose from over 30 craveable toppings to make your perfect Food.
+                          <br> Don’t love what you ordered? Let us know. We’re all about second chances.</p>
+                      <div class="p_card">
+                          <div class="row">
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img1.webp" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Mexican Pizza</h3>
+                                                  <p class="desc">Our standard “Mexican” is loaded</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 10.00</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img2.webp" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Broadway</h3>
+                                                  <p class="desc">Double Bacon Cheese Burger, Lettuce. </p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 9.89</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img3.webp" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Garbage Salad</h3>
+                                                  <p class="desc">Everything includes, tuscan spring mix </p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 4.10</div>
+                                                      <a href="#" class="card_btn">
+                          Add to cart
+                        </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img4.webp" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Cheese Fries</h3>
+                                                  <p class="desc">Our fries are prepared in batches</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 4.79</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img5.webp" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Coca-Cola</h3>
+                                                  <p class="desc">Coca-Cola is the most popular drink</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 10.00</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img2.jpg" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Garlic Bread</h3>
+                                                  <p class="desc">Butter, olive oil, garlic, crusty bread</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 5.00</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img3.jpg" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Red Sauce Pasta</h3>
+                                                  <p class="desc">Red tomato sauce with mix veggies.</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 8.00</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                  <ul>
+                                      <li>
+                                          <div class="card">
+                                              <div class="C_img"> <img src="images/pro_img4.jpg" class="absoImg" alt=""> </div>
+                                              <div class="C_desc">
+                                                  <h3 class="title">Schezwan Sandwich</h3>
+                                                  <p class="desc">Spicy vegetables and schezwan sauce</p>
+                                                  <div class="price_block">
+                                                      <div class="price">$ 3.00</div>
+                                                      <a href="#" class="card_btn">Add to cart</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="client_say">
+      <div class="main_client">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="middle_Cpitch">
+                          <h2 class="title">Whats Clients Say</h2>
+                          <div class="testi_slider slick-initialized slick-slider"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</button>
+                              <div aria-live="polite" class="slick-list draggable"><div class="slick-track" role="listbox" style="opacity: 1; width: 5550px; transform: translate3d(-1110px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 1110px;" tabindex="-1">
+                                  <p class="desc"><span class="double_quat"></span>Great pizza. Tastes so fresh and original. Beats any of the chains hands down.
+                                      <br> I was so glad to hear Mike’s was opening in Oregon and now it is a wonderful reality.
+                                      <br> Give them a try, you won’t be sorry! <span class="double_quat2"></span></p>
+                                  <div class="sign"> <span class="name">Glenn Cook</span> <span class="Desig">CEO</span> </div>
+                              </div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1110px;" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                                  <p class="desc"><span class="double_quat" tabindex="0"></span>I ordered Pizza for the first time &amp; I’m so glad I did! I Can’t wait till I order again. Thick, tasty,
+                                      <br>absolutely delicious Pizza! The gal taking my order was so nice as well. <span class="double_quat2" tabindex="0"></span></p>
+                                  <div class="sign"> <span class="name" tabindex="0">Paulette Pettry</span>
+                                      <span class="Desig" tabindex="0">CEO</span> </div>
+                              </div><div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1110px;" tabindex="-1" role="option" aria-describedby="slick-slide01">
+                                  <p class="desc"><span class="double_quat" tabindex="0"></span>Wow I have found a great pizza place. They brought me a great pizza and the guy that delivered
+                                      <br> my pizza was a cool dude. Thanks for the great pizza. I recommend to everyone.<span class="double_quat2" tabindex="0"></span></p>
+                                  <div class="sign"> <span class="name" tabindex="0">Jhon Walker</span> <span class="Desig" tabindex="0">CEO</span> </div>
+                              </div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1110px;" tabindex="-1" role="option" aria-describedby="slick-slide02">
+                                  <p class="desc"><span class="double_quat" tabindex="0"></span>Great pizza. Tastes so fresh and original. Beats any of the chains hands down.
+                                      <br> I was so glad to hear Mike’s was opening in Oregon and now it is a wonderful reality.
+                                      <br> Give them a try, you won’t be sorry! <span class="double_quat2" tabindex="0"></span></p>
+                                  <div class="sign"> <span class="name" tabindex="0">Glenn Cook</span> <span class="Desig" tabindex="0">CEO</span> </div>
+                              </div><div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" style="width: 1110px;" tabindex="-1">
+                                  <p class="desc"><span class="double_quat"></span>I ordered Pizza for the first time &amp; I’m so glad I did! I Can’t wait till I order again. Thick, tasty,
+                                      <br>absolutely delicious Pizza! The gal taking my order was so nice as well. <span class="double_quat2"></span></p>
+                                  <div class="sign"> <span class="name">Paulette Pettry</span>
+                                      <span class="Desig">CEO</span> </div>
+                              </div></div></div>
+                              
+                              
+                          <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<div class="map">
+  <iframe src="https://maps.google.com/maps?hl=en&amp;q=new%20maxico%20city+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=6&amp;iwloc=B&amp;output=embed"></iframe>
+</div>
+<?php /*
 <ons-navigator swipeable id="onsenNavigator" page="page_settings.html"></ons-navigator>
 
 
@@ -22,41 +252,6 @@ get_header(); /*?>
   </ons-page>
 </template>
 
-
-<template id="page_startup.html">
-  <ons-page id="page_startup" modifier="food_bg is_rtl" >
-      
-   <div class="dim_background">
-   
-     <h2 class="app_title">KARENDERIA</h2>
-     <p class="to_text_white trn">We prepare the best food in town!</p>
- 
-      
-	<ons-bottom-toolbar modifier="bottom_toolbar1">
-	  <p><ons-button modifier="large normal_large to_orange" onclick="showPage('signup.html')" >
-	    <span class="trn">Let's Go</span>
-	  </ons-button>
-	  </p>
-	  
-	  <p>
-	  <ons-button modifier="quiet to_text_white" onclick="showPage('login.html')" >
-	  <span class="trn">Already a member? Sign in</span>
-	  </ons-button>
-	  </p>
-	  
-	  <p>
-	  <ons-button modifier="quiet to_text_white" onclick="resetToPage('page_home.html')" >
-	  <span class="trn">SKIP</span>
-	  </ons-button>
-	  </p>
-	  
-	</ons-bottom-toolbar>
-   
-    
-   </div>   
-   
-  </ons-page>
-</template>
 
 
 <template id="page_home.html">
@@ -3237,4 +3432,4 @@ onclick="submitForm('.frm_addressbook_location','SaveAddresBookLocation');" >
   </ons-page>
 </template>
 
-<?php*/ wp_footer(); ?>
+<?php*/ get_footer(); ?>

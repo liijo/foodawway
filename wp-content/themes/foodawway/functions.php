@@ -30,6 +30,7 @@ function foodawayLoadAssets() {
 	wp_enqueue_style( 'app', esc_url( get_stylesheet_directory_uri() ) . '/css/app.css?ver=1.0' );
 	wp_enqueue_style( 'raty', esc_url( get_stylesheet_directory_uri() ) . '/lib/raty/jquery.raty.css' );
 	wp_enqueue_style( 'bootstrap', esc_url( get_stylesheet_directory_uri() ) . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'main', esc_url( get_stylesheet_uri() ) );
 
 }
 
@@ -49,8 +50,8 @@ function foodawaySidebars() {
 	        'name'          => __( 'Footer Sidebar 1', 'foodaway' ),
 	        'id'            => 'footer-1',
 	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
-	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	        'after_widget'  => '</li>',
+	        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</div>',
 	        'before_title'  => '<h2 class="widgettitle">',
 	        'after_title'   => '</h2>',
 	    )
@@ -60,8 +61,8 @@ function foodawaySidebars() {
 	        'name'          => __( 'Footer Sidebar 2', 'foodaway' ),
 	        'id'            => 'footer-2',
 	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
-	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	        'after_widget'  => '</li>',
+	        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</div>',
 	        'before_title'  => '<h2 class="widgettitle">',
 	        'after_title'   => '</h2>',
 	    )
@@ -71,8 +72,8 @@ function foodawaySidebars() {
 	        'name'          => __( 'Footer Sidebar 3', 'foodaway' ),
 	        'id'            => 'footer-3',
 	        'description'   => __( 'Widgets in this area will be shown on footer.', 'foodaway' ),
-	        'before_widget' => '<li id="%1$s" class="widget %2$s">',
-	        'after_widget'  => '</li>',
+	        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	        'after_widget'  => '</div>',
 	        'before_title'  => '<h2 class="widgettitle">',
 	        'after_title'   => '</h2>',
 	    ) 
@@ -87,8 +88,8 @@ function foodawayMenuClasses($classes, $item, $args) {
 }
 add_filter('nav_menu_css_class', 'foodawayMenuClasses', 1, 3);
 
-function add_menuclass($ulclass) {
-   return preg_replace('/<a /', '<a class="nav-link"', $ulclass);
+function foodawayAddMenuClass($ulclass) {
+   return preg_replace('/<a /', '<a class="nav-link  "', $ulclass);
 }
-add_filter('wp_nav_menu','add_menuclass');
+add_filter('wp_nav_menu','foodawayAddMenuClass');
 ?>

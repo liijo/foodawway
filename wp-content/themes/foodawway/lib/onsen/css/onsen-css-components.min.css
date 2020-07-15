@@ -34,8 +34,7 @@
  */
 
 .notification,
-.toolbar,
-body {
+.toolbar {
 	overflow: hidden
 }
 
