@@ -162,7 +162,7 @@
     <div class="search-wrap">
       <ons-input type="text" name="home_search" class="home_search" required modifier="transparent" placeholder="What are you looking for?" onclick="showPage('search_category.html');" float ></ons-input>
   	  <div>
-      	<img class="stic-icon" src="lib/icons/search.svg" onerror="this.src='search.png'">
+      	<img class="stic-icon" src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
   	  </div>
     </div> 
   </div>
@@ -250,7 +250,7 @@
     <ons-search-input id="search" class="search_for_item" placeholder="Search for item" onclick="showPageNormal('search_item.html');"></ons-search-input>
     <div class="stic-icon">
       <div>
-        <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+        <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
       </div>
     </div>
   </div>  
@@ -1318,7 +1318,7 @@
     <ons-search-input placeholder="Enter Order ID or Restaurant Name" onclick="showPage('search_order.html','none')" ></ons-search-input>
     <div class="stic-icon">
       <div>
-        <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+        <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
       </div>
     </div>
   </div> 
@@ -1353,7 +1353,7 @@
   <div class="search_wrapper" id="stic_search">
     <ons-search-input id="search_order_field" placeholder="Enter Order ID or Transaction Type"></ons-search-input>
     <div class="stic-icon">
-       <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+       <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
     </div>
   </div> 
    
@@ -1680,7 +1680,7 @@
        <ons-search-input placeholder="Enter Booking ID or Restaurant Name" onclick="showPage('search_booking.html','none')" ></ons-search-input>
        <div class="stic-icon">
          <div>
-           <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+           <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
          </div>
        </div>
      </div>  
@@ -2263,7 +2263,7 @@
      <ons-search-input id="input_search_category" placeholder="Search for category"></ons-search-input>
      <div class="stic-icon">
        <div>
-         <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+         <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
        </div>
      </div>
    </div> 
@@ -2287,7 +2287,7 @@
     <ons-search-input id="input_search_item" class="search_for_item" placeholder="Search for item"></ons-search-input>
     <div class="stic-icon">
       <div>
-        <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+        <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
       </div>
     </div>
   </div>  
@@ -2568,7 +2568,7 @@
     <ons-search-input name="search_address" id="search_address" class="search_address" placeholder="Search for your location"></ons-search-input>
    	<div id="mapbox_s_goecoder" class="mapbox_s_goecoder"></div>
     <div class="stic-icon">
-    	<img src="lib/icons/search.svg" onerror="this.src='search.png'">
+    	<img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
     </div>
   </div> 
   
@@ -2738,7 +2738,7 @@
    <div class="search_wrapper" id="stic_search">
      <ons-search-input id="search_booking_field" placeholder="Enter Booking ID or Restaurant Name"></ons-search-input>
      <div class="stic-icon">
-     	<img src="lib/icons/search.svg" onerror="this.src='search.png'">
+     	<img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
      </div>
    </div>  
    
@@ -2964,7 +2964,7 @@ onclick="submitForm('.frm_addressbook_location','SaveAddresBookLocation');" >
 <div class="search_wrapper" id="stic_search">
   <ons-search-input id="location_state_input" placeholder="State/Region"></ons-search-input>
   <div class="stic-icon">
-    <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+    <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
   </div>
 </div>   
 
@@ -3002,7 +3002,7 @@ onclick="submitForm('.frm_addressbook_location','SaveAddresBookLocation');" >
 <div class="search_wrapper" id="stic_search">
   <ons-search-input id="location_city_input" placeholder="City"></ons-search-input>
   <div class="stic-icon">
-    <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+    <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
   </div>
 </div> 
 
@@ -3039,7 +3039,7 @@ onclick="submitForm('.frm_addressbook_location','SaveAddresBookLocation');" >
 <div class="search_wrapper" id="stic_search">
   <ons-search-input id="location_area_input" placeholder="District/Area"></ons-search-input>
   <div class="stic-icon">
-    <img src="lib/icons/search.svg" onerror="this.src='search.png'">
+    <img src="<?php echo get_stylesheet_directory_uri()?>/images/search.svg" onerror="this.src='<?php echo get_stylesheet_directory_uri()?>/images/search.png'">
   </div>
 </div> 
 

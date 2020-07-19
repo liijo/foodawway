@@ -13,121 +13,121 @@ Text Domain: foodaway
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 body{
-	font-family: 'Ubuntu', sans-serif;
+     font-family: 'Ubuntu', sans-serif;
 }
 
 /* Header css start */
 .navbar-nav .nav-link{
-	text-decoration: none;
-	color: #ffffff;
-	font-weight: 700;
-	display: inline-block;
-	vertical-align: top;
-	text-transform: capitalize;
-	font-size: 15px;
-	padding: 25px 29px;
-	position: relative;
-	transition: 1s ease-in-out;
+     text-decoration: none;
+     color: #ffffff;
+     font-weight: 700;
+     display: inline-block;
+     vertical-align: top;
+     text-transform: capitalize;
+     font-size: 15px;
+     padding: 25px 29px;
+     position: relative;
+     transition: 1s ease-in-out;
 }
 .H_banner {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	vertical-align: top;
-	overflow: hidden;
-	background: url(images/inner_banner.webp) no-repeat;
-	background-position: top;
-	background-attachment: fixed;
-	height: 389px;
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     vertical-align: top;
+     overflow: hidden;
+     background: url(images/inner_banner.webp) no-repeat;
+     background-position: top;
+     background-attachment: fixed;
+     height: 389px;
 }
 .H_banner.home {
-	position: relative;
-	display: inline-block;
-	width: 100%;
-	vertical-align: top;
-	overflow: hidden;
-	background: url(images/banner_bg.webp) no-repeat;
-	background-position: top;
-	background-attachment: fixed;
-	height: 738px;
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     vertical-align: top;
+     overflow: hidden;
+     background: url(images/banner_bg.webp) no-repeat;
+     background-position: top;
+     background-attachment: fixed;
+     height: 738px;
 }
 .H_banner img {
-	max-width: inherit;
-	margin-left: 50%;
-	transform: translate(-50%);
-	-moz-transform: translate(-50%);
-	-ms-transform: translate(-50%);
-	-o-transform: translate(-50%);
-	-webkit-transform: translate(-50%);
+     max-width: inherit;
+     margin-left: 50%;
+     transform: translate(-50%);
+     -moz-transform: translate(-50%);
+     -ms-transform: translate(-50%);
+     -o-transform: translate(-50%);
+     -webkit-transform: translate(-50%);
 }
 .main_pitch {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;
-	top: 50%;
-	transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin: auto;
+     top: 50%;
+     transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     -o-transform: translateY(-50%);
+     -webkit-transform: translateY(-50%);
 }
 h1.page_title {
-	font-size: 70px;
-	line-height: 70px;
-	color: #ffffff;
-	font-weight: 400;
-	text-align: center;
-	text-transform: capitalize;
-	margin-bottom: 48px;
-	text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     font-size: 70px;
+     line-height: 70px;
+     color: #ffffff;
+     font-weight: 400;
+     text-align: center;
+     text-transform: capitalize;
+     margin-bottom: 48px;
+     text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
 }
 h3.cntct {
-	font-size: 50px;
-	line-height: 50px;
-	color: #ffcc00;
-	font-weight: 700;
-	text-align: center;
-	text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     font-size: 50px;
+     line-height: 50px;
+     color: #ffcc00;
+     font-weight: 700;
+     text-align: center;
+     text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
 }
 h3.cntct span a {
-	color: #fff;
-	text-align: center;
-	padding-left: 15px;
+     color: #fff;
+     text-align: center;
+     padding-left: 15px;
 }
 h3.cntct span a:hover {
-	color: #ffcc00;
-	text-decoration: none;
+     color: #ffcc00;
+     text-decoration: none;
 }
 .cntct.typewriter-effect span a {
-	color: #fff;
-	text-align: center;
-	padding-left: 15px;
-	font-size: 50px;
-	line-height: 50px;
-	font-weight: 700;
-	text-align: center;
-	text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
-	-webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     color: #fff;
+     text-align: center;
+     padding-left: 15px;
+     font-size: 50px;
+     line-height: 50px;
+     font-weight: 700;
+     text-align: center;
+     text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -moz-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -ms-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -o-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
+     -webkit-text-shadow: 0px 0px 26.97px rgba(0, 0, 0, 0.75);
 }
 .cntct.typewriter-effect span a:hover {
-	color: #ffcc00;
-	text-decoration: none;
+     color: #ffcc00;
+     text-decoration: none;
 }
 .call_desk {
-	display: inline-block;
-	vertical-align: top;
+     display: inline-block;
+     vertical-align: top;
 }
 .bottom_pitch {
      float: left;
@@ -137,7 +137,7 @@ h3.cntct span a:hover {
      padding-bottom: 3px;
      margin-top: -81px;
 }
- .bottom_pitch:after {
+.bottom_pitch:after {
      position: absolute;
      content: "";
      bottom: 0;
@@ -146,16 +146,15 @@ h3.cntct span a:hover {
      background: url("images/border.png");
      background-repeat: repeat-x;
      height: 6px;
-     width: 1920px;
      margin: auto;
 }
- .bottom_pitch ul li {
+.bottom_pitch ul li {
      float: left;
      width: 20%;
      position: relative;
      list-style: none;
 }
- .bottom_pitch ul li a {
+.bottom_pitch ul li a {
      font-size: 20px;
      line-height: 20px;
      color: #ffffff;
@@ -166,7 +165,7 @@ h3.cntct span a:hover {
      text-decoration: none;
      position: relative;
 }
- .bottom_pitch ul li.active a:after {
+.bottom_pitch ul li.active a:after {
      position: absolute;
      content: "";
      left: 0;
@@ -177,7 +176,7 @@ h3.cntct span a:hover {
      background: url("images/hover_bg.png");
      height: 6px;
 }
- .bottom_pitch ul li.active:before {
+.bottom_pitch ul li.active:before {
      position: absolute;
      content: "";
      left: -4px;
@@ -188,7 +187,7 @@ h3.cntct span a:hover {
      background: url("images/hover_Vbg.png");
      width: 6px;
 }
- .bottom_pitch ul li.active:after {
+.bottom_pitch ul li.active:after {
      position: absolute;
      content: "";
      right: -2px;
@@ -199,33 +198,33 @@ h3.cntct span a:hover {
      background: url("images/hover_Vbg.png");
      width: 6px;
 }
- .bottom_pitch ul li.active a {
+.bottom_pitch ul li.active a {
      background: #e60000;
 }
- .bottom_pitch ul li a span.icon {
+.bottom_pitch ul li a span.icon {
      position: relative;
 }
- .bottom_pitch ul li.pizza a span.icon {
+.bottom_pitch ul li.pizza a span.icon {
      padding-left: 58px;
 }
- .bottom_pitch ul li.burger1 a span.icon {
+.bottom_pitch ul li.burger1 a span.icon {
      padding-left: 56px;
 }
- .bottom_pitch ul li.salads a span.icon {
+.bottom_pitch ul li.salads a span.icon {
      padding-left: 58px;
 }
- .bottom_pitch ul li.fries a span.icon {
+.bottom_pitch ul li.fries a span.icon {
      padding-left: 54px;
 }
- .bottom_pitch ul li.drinks a span.icon {
+.bottom_pitch ul li.drinks a span.icon {
      padding-left: 54px;
 }
- .bottom_pitch ul li a span.icon {
+.bottom_pitch ul li a span.icon {
      position: relative;
      display: inline-block;
      vertical-align: top;
 }
- .bottom_pitch ul li.pizza a span.icon:after {
+.bottom_pitch ul li.pizza a span.icon:after {
      position: absolute;
      content: "";
      top: 0;
@@ -236,7 +235,7 @@ h3.cntct span a:hover {
      width: 39px;
      height: 37px;
 }
- .bottom_pitch ul li.burger1 a span.icon:after {
+.bottom_pitch ul li.burger1 a span.icon:after {
      position: absolute;
      content: "";
      top: 0;
@@ -247,7 +246,7 @@ h3.cntct span a:hover {
      width: 38px;
      height: 32px;
 }
- .bottom_pitch ul li.salads a span.icon:after {
+.bottom_pitch ul li.salads a span.icon:after {
      position: absolute;
      content: "";
      top: 0;
@@ -258,7 +257,7 @@ h3.cntct span a:hover {
      width: 40px;
      height: 36px;
 }
- .bottom_pitch ul li.fries a span.icon:after {
+.bottom_pitch ul li.fries a span.icon:after {
      position: absolute;
      content: "";
      top: 0;
@@ -269,7 +268,7 @@ h3.cntct span a:hover {
      width: 30px;
      height: 40px;
 }
- .bottom_pitch ul li.drinks a span.icon:after {
+.bottom_pitch ul li.drinks a span.icon:after {
      position: absolute;
      content: "";
      top: 0;
@@ -280,7 +279,7 @@ h3.cntct span a:hover {
      width: 30px;
      height: 44px;
 }
- .main_bpitch {
+.main_bpitch {
      display: inline-block;
      width: 100%;
      vertical-align: top;
@@ -288,33 +287,33 @@ h3.cntct span a:hover {
 
 /*Footer*/
 footer{
-	color: #fff;
-	padding: 80px 0;
-	background-color: #060606;
+     color: #fff;
+     padding: 80px 0;
+     background-color: #060606;
 }
 .widgettitle{
-	font-size: 18px;
-    line-height: 20px;
-    font-weight: 700;
-    margin-bottom: 25px;
+     font-size: 18px;
+     line-height: 20px;
+     font-weight: 700;
+     margin-bottom: 25px;
 }
 .widget ul{
-	padding-left: 0;
-	list-style-type: none;
+     padding-left: 0;
+     list-style-type: none;
 }
 .widget li{
-	margin-bottom: 10px;
+     margin-bottom: 10px;
 }
 .widget li a{
-	font-size: 16px;
-    line-height: 16px;
-    color: #ffffff;
-    padding: 0;
-    font-weight: 400;
+     font-size: 16px;
+     line-height: 16px;
+     color: #ffffff;
+     padding: 0;
+     font-weight: 400;
 }
 
 /* How to work css start */
- .hwork {
+.hwork {
      display: inline-block;
      width: 100%;
      vertical-align: top;
@@ -322,7 +321,7 @@ footer{
      position: relative;
      overflow: hidden;
 }
- .hwork:after {
+.hwork:after {
      position: absolute;
      content: "";
      left: 0;
@@ -334,29 +333,29 @@ footer{
      background-repeat: no-repeat;
      margin: auto;
 }
- .main_hwork {
+.main_hwork {
      display: inline-block;
      width: 100%;
      vertical-align: top;
      margin-top: 56px;
      margin-bottom: 59px;
 }
- .main_hwork ul {
+.main_hwork ul {
      margin: 0 -15px;
      list-style-type: none;
 }
- .main_hwork li {
+.main_hwork li {
      float: left;
      width: 33.33%;
      padding: 0 15px;
 }
- .main_hwork li .title {
+.main_hwork li .title {
      display: inline-block;
      vertical-align: top;
      padding-top: 70px;
      position: relative;
 }
- .main_hwork li .title:after {
+.main_hwork li .title:after {
      position: absolute;
      left: 0;
      right: 0;
@@ -364,11 +363,11 @@ footer{
      margin: auto;
      content: "";
 }
- .main_hwork li.order {
+.main_hwork li.order {
      text-align: left;
      position: relative;
 }
- .main_hwork li.order:after {
+.main_hwork li.order:after {
      position: absolute;
      content: "";
      background: url('images/sprit.webp') no-repeat -15px -273px;
@@ -377,11 +376,11 @@ footer{
      top: 8px;
      right: -68px;
 }
- .main_hwork li.deliver_L {
+.main_hwork li.deliver_L {
      text-align: center;
      position: relative;
 }
- .main_hwork li.deliver_L:after {
+.main_hwork li.deliver_L:after {
      position: absolute;
      content: "";
      top: 22px;
@@ -390,27 +389,27 @@ footer{
      width: 174px;
      height: 45px;
 }
- .main_hwork li.deliver_pick {
+.main_hwork li.deliver_pick {
      text-align: right;
 }
- .main_hwork li.order .title:after {
+.main_hwork li.order .title:after {
      background: url('images/sprit.webp') no-repeat -14px -78px;
      width: 57px;
      height: 40px;
 }
- .main_hwork li.deliver_L .title:after {
+.main_hwork li.deliver_L .title:after {
      background: url('images/sprit.webp') no-repeat -14px -133px;
      width: 54px;
      height: 54px;
 }
- .main_hwork li.deliver_pick .title:after {
+.main_hwork li.deliver_pick .title:after {
      background: url('images/sprit.webp') no-repeat -10px -210px;
      width: 69px;
      height: 43px;
 }
 /* How to work css End */
 /* Popular css start */
- .popular {
+.popular {
      display: inline-block;
      width: 100%;
      vertical-align: top;
@@ -419,14 +418,14 @@ footer{
      background-size: cover;
      background-position: top center;
 }
- .main_popular {
+.main_popular {
      display: inline-block;
      vertical-align: top;
      width: 100%;
      padding: 50px 0;
      padding-bottom: 0px;
 }
- .main_popular .title {
+.main_popular .title {
      text-align: center;
      font-size: 36px;
      line-height: 36px;
@@ -434,7 +433,7 @@ footer{
      font-weight: 700;
      margin-bottom: 20px;
 }
- .main_popular .desc {
+.main_popular .desc {
      font-size: 16px;
      line-height: 24px;
      color: #181818;
@@ -442,30 +441,30 @@ footer{
      text-align: center;
      margin-bottom: 30px;
 }
- .p_card {
+.p_card {
      float: left;
      width: 100%;
 }
- .p_card li {
+.p_card li {
      list-style-type: none;
      float: left;
      padding: 0 15px;
      margin-bottom: 55px;
      width: 100%;
 }
- .p_card li .card {
+.p_card li .card {
      float: left;
      width: 100%;
      display: block;
      position: relative;
      transition: all 0.5s ease;
 }
- .p_card li .card .C_img {
+.p_card li .card .C_img {
      float: left;
      position: relative;
      text-align: center;
 }
- .p_card li .card .C_desc {
+.p_card li .card .C_desc {
      float: left;
      padding: 20px;
      width: calc(100% - 192px);
@@ -477,12 +476,12 @@ footer{
      width: position:relative;
      padding-bottom: 27px;
 }
- .card:hover{
+.card:hover{
      -webkit-box-shadow: 9px 12px 21px -7px rgba(0, 0, 0, 0.75);
      -moz-box-shadow: 9px 12px 21px -7px rgba(0, 0, 0, 0.75);
      box-shadow: 9px 12px 21px -7px rgba(0, 0, 0, 0.75);
 }
- .card_btn {
+.card_btn {
      color: #e71c00;
      margin: 10px 0px 0px 50px;
      padding: 6px 11px;
@@ -490,7 +489,7 @@ footer{
      transition: all 0.5s;
      height: 36px;
 }
- .card_btn:before {
+.card_btn:before {
      content: "";
      top: -3px;
      left: -4px;
@@ -499,12 +498,12 @@ footer{
      width: 108px;
      height: 42px;
 }
- .card:hover .price_block .card_btn, .P_itmesbox:hover .price_block .card_btn{
+.card:hover .price_block .card_btn, .P_itmesbox:hover .price_block .card_btn{
      color: #ffffff;
      background: #e71c00;
      height: 36px;
 }
- .card:hover .price_block .card_btn:before, .P_itmesbox:hover .price_block .card_btn:before {
+.card:hover .price_block .card_btn:before, .P_itmesbox:hover .price_block .card_btn:before {
      content: "";
      top: -3px;
      left: -4px;
@@ -513,18 +512,18 @@ footer{
      width: 108px;
      height: 42px;
 }
- .P_itmesbox .card_btn {
+.P_itmesbox .card_btn {
      margin: 10px 0px 0px 0px;
 }
- .o_card li .card .card_btn {
+.o_card li .card .card_btn {
      padding: 6px 13px;
      margin: 10px 0px 0px 5px;
 }
- .card:hover .price_block .btn a,.P_itmesbox:hover .price_block .btn a {
+.card:hover .price_block .btn a,.P_itmesbox:hover .price_block .btn a {
      background: #e60000;
      color: #fff;
 }
- .card:hover .price_block .btn a:after, .P_itmesbox:hover .price_block .btn a:after {
+.card:hover .price_block .btn a:after, .P_itmesbox:hover .price_block .btn a:after {
      top: 0;
      bottom: 0;
      left: 0px;
@@ -542,7 +541,7 @@ footer{
      -ms-transition: 500ms all;
 }
 /* border */
- .p_card li .card:after {
+.p_card li .card:after {
      top: -3px;
      left: 0;
      right: 0;
@@ -553,7 +552,7 @@ footer{
      background: url("images/gray_Hborder.png");
      height: 6px;
 }
- .p_card li .card:before {
+.p_card li .card:before {
      bottom: -5px;
      left: 0;
      right: 0;
@@ -564,7 +563,7 @@ footer{
      background: url("images/gray_Hborder.png");
      height: 6px;
 }
- .p_card li .card .C_img:after {
+.p_card li .card .C_img:after {
      top: 0;
      bottom: 0;
      left: -4px;
@@ -575,7 +574,7 @@ footer{
      background: url("images/gray_Vborder.png");
      width: 6px;
 }
- .p_card li .card .C_img:before {
+.p_card li .card .C_img:before {
      top: 0;
      bottom: 0;
      right: -4px;
@@ -586,7 +585,7 @@ footer{
      background: url("images/gray_Vborder.png");
      width: 6px;
 }
- .p_card li .card .C_desc:before {
+.p_card li .card .C_desc:before {
      top: 0;
      bottom: 0;
      right: -3px;
@@ -598,7 +597,7 @@ footer{
      width: 6px;
 }
 /* border */
- .p_card li .card .C_desc .title {
+.p_card li .card .C_desc .title {
      font-size: 26px;
      line-height: 26px;
      font-weight: 700;
@@ -606,15 +605,15 @@ footer{
      color: #000;
      margin-bottom: 8px;
 }
- .p_card li .card .C_desc .desc {
+.p_card li .card .C_desc .desc {
      text-align: left;
      margin-bottom: 7px;
 }
- .p_card li .card .price_block {
+.p_card li .card .price_block {
      float: left;
      width: 100%;
 }
- .p_card li .card .price_block .price {
+.p_card li .card .price_block .price {
      float: left;
      max-width: 110px;
      text-align: left;
@@ -624,14 +623,14 @@ footer{
      margin-top: 15px;
      color: #0b0b0b;
 }
- .price_block .btn {
+.price_block .btn {
      float: left;
      margin-left: 5px;
      width: auto;
      text-align: left;
      position: relative;
 }
- .price_block .btn a {
+.price_block .btn a {
      width: 100%;
      height: 36px;
      line-height: 36px;
@@ -644,7 +643,7 @@ footer{
      background: #fff;
 }
 /* border */
- .price_block .btn a:after {
+.price_block .btn a:after {
      top: 0;
      bottom: 0;
      left: 10px;
@@ -664,13 +663,13 @@ footer{
 /* border */
 /* Popular css End */
 /* clinet say start css */
- .client_say {
+.client_say {
      float: left;
      width: 100%;
      vertical-align: top;
      position: relative;
 }
- .client_say:after {
+.client_say:after {
      position: absolute;
      content: "";
      left: 0;
@@ -679,10 +678,9 @@ footer{
      margin: auto;
      background: url("images/border_Ctop.png");
      height: 6px;
-     width: 1920px;
      background-repeat: no-repeat;
 }
- .client_say:before {
+.client_say:before {
      position: absolute;
      content: "";
      left: 0;
@@ -691,11 +689,10 @@ footer{
      margin: auto;
      background: url("images/border_Ctop.png");
      height: 6px;
-     width: 1920px;
      background-repeat: no-repeat;
      z-index: 99;
 }
- .main_client {
+.main_client {
      display: inline-block;
      width: 100%;
      overflow: hidden;
@@ -706,7 +703,7 @@ footer{
      background-size: cover;
      height: 380px;
 }
- .main_client .container {
+.main_client .container {
      top: 0;
      left: 0;
      right: 0;
@@ -715,14 +712,14 @@ footer{
      text-align: center;
      padding-top: 60px;
 }
- .middle_Cpitch .title {
+.middle_Cpitch .title {
      font-size: 36px;
      line-height: 36px;
      color: #ffffff;
      font-weight: 700;
      margin-bottom: 60px;
 }
- .middle_Cpitch .desc {
+.middle_Cpitch .desc {
      font-size: 16px;
      line-height: 24px;
      color: #ffffff;
@@ -733,26 +730,26 @@ footer{
      padding-right: 30px;
      margin-bottom: 46px;
 }
- .double_quat {
+.double_quat {
      display: inline-block;
      background: url('images/sprit.webp') no-repeat -90px -98px;
      width: 19px;
      height: 17px;
      margin-right: 15px;
 }
- .double_quat2 {
+.double_quat2 {
      background: url('images/sprit.webp') no-repeat -117px -98px;
      width: 20px;
      height: 16px;
      display: inline-block;
      margin-left: 8px;
 }
- .sign {
+.sign {
      display: inline-block;
      vertical-align: top;
      width: 100%;
 }
- .sign .name {
+.sign .name {
      display: inline-block;
      width: 100%;
      vertical-align: top;
@@ -763,7 +760,7 @@ footer{
      font-weight: 700;
      margin-bottom: 16px;
 }
- .sign .Desig {
+.sign .Desig {
      font-size: 16px;
      line-height: 16px;
      color: #ffffff;
@@ -773,14 +770,14 @@ footer{
 }
 /* clinet say End css */
 /* Map Start css */
- .map {
+.map {
      display: flex;
      width: 100%;
      vertical-align: top;
 }
 .map iframe {
-    width: 100%;
-    height: 350px;
-    border: 0;
+     width: 100%;
+     height: 350px;
+     border: 0;
 }
 /* Map End css */

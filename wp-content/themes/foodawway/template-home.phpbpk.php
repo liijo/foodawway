@@ -25,6 +25,56 @@ get_header(); ?>
 </div>
 
 
+<section>
+    <div class="client_say">
+        <div class="main_client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="middle_Cpitch">
+                            <h2 class="title">Whats Clients Say</h2>
+                            <div class="testi_slider">
+                                <div>
+                                    <p class="desc">
+                                        <span class="double_quat"></span>I ordered Pizza for the first time & I’m so glad I did! I Can’t wait till I order again. Thick, tasty,
+                                        <br>absolutely delicious Pizza! The gal taking my order was so nice as well. <span class="double_quat2"></span>
+                                    </p>
+                                    <div class="sign"> 
+                                        <span class="name">Paulette Pettry</span>
+                                        <span class="Desig">CEO</span> 
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="desc">
+                                        <span class="double_quat"></span>Wow I have found a great pizza place. They brought me a great pizza and the guy that delivered
+                                        <br> my pizza was a cool dude. Thanks for the great pizza. I recommend to everyone.<span class="double_quat2"></span>
+                                    </p>
+                                    <div class="sign"> 
+                                        <span class="name">Jhon Walker</span> <span class="Desig">CEO</span> 
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="desc">
+                                        <span class="double_quat"></span>Great pizza. Tastes so fresh and original. Beats any of the chains hands down.
+                                        <br> I was so glad to hear Mike’s was opening in Oregon and now it is a wonderful reality.
+                                        <br> Give them a try, you won’t be sorry! <span class="double_quat2"></span>
+                                    </p>
+                                    <div class="sign"> 
+                                        <span class="name">Glenn Cook</span> <span class="Desig">CEO</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="map">
+    <iframe src="https://maps.google.com/maps?hl=en&amp;q=new%20maxico%20city+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=6&amp;iwloc=B&amp;output=embed"></iframe>
+</div>
+
 <ons-navigator swipeable id="onsenNavigator" page="page_home.html"></ons-navigator>
 <template id="page_home.html">
     <ons-page id="page_home" modifier="white_background">

@@ -21,6 +21,8 @@ function foodawayLoadAssets() {
 	wp_enqueue_script( 'template', get_stylesheet_directory_uri() . '/js/template.js?version=1.0.0', array(), '1.0.0', true );
 	wp_enqueue_script( 'app', get_stylesheet_directory_uri() . '/js/app.js?version=1.0.0', array(), '1.0.0', true );
 	wp_enqueue_script( 'map-wrapper', get_stylesheet_directory_uri() . '/js/map-wrapper.js?version=1.0.0', array(), '1.0.0', true );
+	wp_enqueue_script( 'slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'script', get_stylesheet_directory_uri() . '/js/script.js', array(), '1.0.0', true );
 
 	// theme styles
 	wp_enqueue_style( 'onsenui', esc_url( get_stylesheet_directory_uri() ) . '/lib/onsen/css/onsenui.min.css' );
@@ -89,7 +91,7 @@ function foodawayMenuClasses($classes, $item, $args) {
 add_filter('nav_menu_css_class', 'foodawayMenuClasses', 1, 3);
 
 function foodawayAddMenuClass($ulclass) {
-   return preg_replace('/<a /', '<a class="nav-link  "', $ulclass);
+   return preg_replace('/<a /', '<a class="nav-link  " ', $ulclass);
 }
 add_filter('wp_nav_menu','foodawayAddMenuClass');
 ?>
